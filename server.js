@@ -12,4 +12,7 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+require("./app/public/home.html")(app);
+require("./app/public/survey.html")(app);
+
 // Users (DATA)

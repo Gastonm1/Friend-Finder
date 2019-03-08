@@ -2,7 +2,7 @@
 // Load Data
 // -------------------------------------------------------------------------------
 
-var friends = require("../app/public/friends.js");
+var friendData = require("../app/data/friends.js");
 
 // -------------------------------------------------------------------------------
 // Routing
@@ -14,11 +14,11 @@ module.exports = function(app) {
         res.json(friendData);
       });
 
-      app.post("/api/friends", function(req, res) {
+    //   app.post("/api/friends", function(req, res) {
 
-        if (tableData.length < 5) {
-          friendData.push(req.body);
-          res.json(true);
-        }
-      });
+    //     if (tableData.length < 5) {
+    //       friendData.push(req.body);
+    //       res.json(true);
+    //     }
+    //   });
     }

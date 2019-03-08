@@ -23,5 +23,5 @@ module.exports = function(app) {
         // must push this to survey userData... BUT HOWWWWWWWW
           res.json(true);
         }
-      });
-    }
+      )};
+    

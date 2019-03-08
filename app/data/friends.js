@@ -17,7 +17,7 @@ var friendArray = [
     {
       name: "Coach Ditka",
       photo: "https://i.kinja-img.com/gawker-media/image/upload/s--wlPIybE7--/18s4dt70alszpjpg.jpg",
-      scores: ["1", "2", "3","4","1","2","3","4","1","2"],
+      scores: ["1", "2", "3","4","1","2","3","4","1","2"]
     },
     {
       name: "Bruno Mars",

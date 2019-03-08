@@ -14,11 +14,14 @@ module.exports = function(app) {
         res.json(friendData);
       });
 
-    //   app.post("/api/friends", function(req, res) {
+      app.post("/api/friends", function(req, res) {
 
-    //     if (tableData.length < 5) {
-    //       friendData.push(req.body);
-    //       res.json(true);
-    //     }
-    //   });
+        var matchFound = {
+          name: "",
+          photo: ""
+        };
+        // must push this to survey userData... BUT HOWWWWWWWW
+          res.json(true);
+        }
+      });
     }

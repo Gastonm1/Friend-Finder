@@ -21,13 +21,27 @@ module.exports = function(app) {
     for (var i = 0; i < friendData.length; i++) {
       var currentFriend = friendData[i];
       currentFriend.scores;
-
+      var total = 0
       for (var j = 0; j < currentFriend.scores.length; j++) {
         var friendScore = currentFriend.scores[j];
         var userScore = userScores[j];
         console.log(Math.abs(userScore - friendScore)); //<--- Math.abs produces all absolute values
+        total += Math.abs(userScore - friendScore);
       }
+      friendsTotal.push(total)
+      total = 0
     }
+    var sortedScore = friendsTotal.sort(function(a, b){
+      if (a > b){
+        return 1
+      } else if (a < b){
+        return -1
+      } else {
+        return 0
+      }
+    })
+
+    console.log(friendsTotal)
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     var matchFound = {
       name: "",

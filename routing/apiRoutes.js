@@ -31,7 +31,7 @@ module.exports = function(app) {
       friendsTotal.push(total)
       total = 0
     }
-    var sortedScore = friendsTotal.sort(function(a, b){
+    var sortedScore = friendsTotal.slice().sort(function(a, b){
       if (a > b){
         return 1
       } else if (a < b){
@@ -49,13 +49,14 @@ var lowest = sortedScore[0];
 var indexOfMatch = friendsTotal.indexOf(lowest);
 var name = friendData[indexOfMatch]
 console.log(name)
+console.log(lowest)
+console.log(indexOfMatch)
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     var matchFound = {
-      name: "",
-      photo: ""
+      name: name.name,
+      photo: name.photo
     };
     // res.json(true);
-    res.send(name);
-    res.send(name.photo);
+    res.send(matchFound);
   });
 };

@@ -15,13 +15,15 @@ module.exports = function(app) {
       });
 
       app.post("/api/friends", function(req, res) {
-
+        console.log(req.body)
+        var userScores = req.body.scores;
+        
         var matchFound = {
           name: "",
           photo: ""
         };
-        // must push this to survey userData... BUT HOWWWWWWWW
-          res.json(true);
+          // res.json(true);
+          res.send("hello world")
         }
       )};
     

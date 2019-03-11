@@ -40,14 +40,22 @@ module.exports = function(app) {
         return 0
       }
     })
+    console.log(sortedScore)
 
-    console.log(friendsTotal)
+    ////
+    // Get the first number from the sorted score and find the index of the score in the friends total.
+    ///// friendstotal.indexOf(sortedScore[0])
+var lowest = sortedScore[0];
+var indexOfMatch = friendsTotal.indexOf(lowest);
+var name = friendData[indexOfMatch]
+console.log(name)
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     var matchFound = {
       name: "",
       photo: ""
     };
     // res.json(true);
-    res.send("hello world");
+    res.send(name);
+    res.send(name.photo);
   });
 };

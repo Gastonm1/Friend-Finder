@@ -14,6 +14,11 @@ var friendArray = [
       scores: ["5", "3", "1","2","3","1","4","2","5","3"]
     },
     {
+      name: "Hagrid",
+      photo: "https://s.aolcdn.com/dims-shared/dims3/GLOB/crop/580x380+0+0/resize/1028x675!/format/jpg/quality/85/https://s.aolcdn.com/hss/storage/midas/d7cd49ec0d417b80fb2034638ed37fb7/203283742/Screen+Shot+2016-01-19+at+4.18.36+PM.png",
+      scores: ["1", "1", "1","1","1","1","1","1","1","1"]
+    },
+    {
       name: "Dave Chapelle",
       photo: "https://static01.nyt.com/images/2017/03/18/arts/18CHAPPELLE-INTERVIEW/18CHAPPELLE-INTERVIEW-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
       scores: ["4", "5", "2","4","3","5","1","2","3","2"]

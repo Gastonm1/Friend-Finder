@@ -6,13 +6,13 @@ var friendArray = [
   {
     name: "Dwayne Johnson",
     photo:
-      "https://i.pinimg.com/originals/54/61/d2/5461d21528d3db2d59b22a875510f22c.jpg",
+      "https://s.yimg.com/ny/api/res/1.2/4dhp9N265xqNoE62yf3Zzg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NDk1O2g9NDk1/http://media.zenfs.com/en-US/homerun/people_218/ba6382c6d178e8ea0c6a08035897903a",
     scores: ["2", "3", "4", "1", "5", "2", "3", "2", "5", "3"]
   },
   {
     name: "Hagrid",
     photo:
-      "https://s.aolcdn.com/dims-shared/dims3/GLOB/crop/580x380+0+0/resize/1028x675!/format/jpg/quality/85/https://s.aolcdn.com/hss/storage/midas/d7cd49ec0d417b80fb2034638ed37fb7/203283742/Screen+Shot+2016-01-19+at+4.18.36+PM.png",
+      "https://process.filepicker.io/APHE465sSbqvbOIStdwTyz/rotate=deg:exif/resize=fit:crop,height:197,width:375/output=quality:80,compress:true,strip:true,format:jpg/cache=expiry:max/https://cdn.filestackcontent.com/iGSclidiSNi6mLVdD76q",
     scores: ["5", "3", "1", "2", "3", "1", "4", "2", "5", "3"]
   },
   {
@@ -30,7 +30,7 @@ var friendArray = [
   {
     name: "Bruno Mars",
     photo:
-      "https://cdn.newsapi.com.au/image/v1/cf03ccf2346783fd19f03ea94ef7e1bb",
+      "https://images-na.ssl-images-amazon.com/images/I/41NKk2fHW6L._SY355_.jpg",
     scores: ["5", "3", "2", "5", "4", "2", "4", "1", "1", "3"]
   }
 ];
